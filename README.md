@@ -32,7 +32,8 @@ Technical Aspects:-
 Finally, a heartfelt thanks to you for giving the time to read about the project.
 
 
-
+Screenshots:-
+![Dashboard Screenshot] https://drive.google.com/drive/folders/1e-u4vRHfGiMV6HvVkxMWnaipySspHoi8
 
 
 
