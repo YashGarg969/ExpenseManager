@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">ExpenseManager</string>
+    <string name="googleSignInText">Continue With Google</string>
+    <string name="web_client_id">your-web-client-id</string>
+    <string name="backBtn">backBtn</string>
+    <string name="home_txt">Home</string>
+    <string name="settings_txt">Settings</string>
+    <string name="editBtnTxt">EditBtn</string>
+    <string name="detailsTxt">Details</string>
+
 </resources>

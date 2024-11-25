@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,16 +15,16 @@
         android:theme="@style/Theme.ExpenseManager"
         tools:targetApi="31">
         <activity
-            android:name=".ui.TransactionDetailScreen"
+            android:name=".ui.TransactionDetailActivity"
             android:exported="false" />
         <activity
             android:name=".ui.DashboardScreen"
             android:exported="false" />
         <activity
             android:name=".ui.CreateRecordScreen"
-            android:exported="false" />
+            android:exported="false"/>
         <activity
-            android:name=".ui.MainActivity"
+            android:name=".ui.LoginScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
